@@ -5,7 +5,9 @@ from collections import OrderedDict
 # Reorganizar datos dinámicamente según criterios específicos.
 # Comparar estructuras de datos donde el orden es relevante.
 
-datos = OrderedDict([('a', 1), ('b', 2), ('c', 3), ('z', 30)])
+valores = [('a', 1), ('b', 2), ('c', 3), ('z', 30)]
+
+datos = OrderedDict(valores)
 datos.move_to_end('a')
 datos.move_to_end('z', last=False)
 
