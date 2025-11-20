@@ -1,0 +1,16 @@
+1. Inheritance	
+"Is-a"	
+Creating a new class (child/subclass) that takes on the features (methods and attributes) of an existing class (parent/superclass).	
+Reuse existing code; defines a hierarchy.	
+None (Child depends on Parent's structure, but objects are independent).
+
+2. Aggregation	
+"Has-a" (Weak)	
+A class contains a reference to another object, but that object can exist independently of the container. Sharing objects is possible.	
+Weak (If the container is destroyed, the contained object remains).
+
+3. Composition	
+"Has-a" (Strong)	
+A class owns and manages the lifecycle of its contained object. The contained object cannot exist meaningfully without the container.	
+Defines internal parts of the whole.	
+Strong (If the container is destroyed, the contained object is destroyed or becomes irrelevant).
