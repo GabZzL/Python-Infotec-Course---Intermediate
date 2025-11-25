@@ -1,5 +1,5 @@
 from venta import Venta
-
+# Relacion con la clase Venta
 class Tienda:
     def __init__(self, nombre: str):
         self.nombre = nombre
@@ -7,4 +7,4 @@ class Tienda:
         
     def registrar_venta(self,venta: Venta) -> None:
         self.ventas.append(venta)
-        
+    

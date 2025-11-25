@@ -1,6 +1,6 @@
 from producto import Producto
 from cliente import Cliente
-
+# Relacion con la clase Cliente, y Producto
 class Venta():
     def __init__(self, cliente: Cliente):
         self.cliente = cliente
@@ -11,3 +11,5 @@ class Venta():
     
     def total(self) -> float:
         return sum(p.precio for p in self.productos)
+    
+    
